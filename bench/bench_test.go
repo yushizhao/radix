@@ -2,7 +2,7 @@ package bench
 
 import (
 	"context"
-	"errors"
+	errors "golang.org/x/xerrors"
 	"runtime"
 	"strings"
 	. "testing"

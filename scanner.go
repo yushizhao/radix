@@ -2,7 +2,7 @@ package radix
 
 import (
 	"bufio"
-	"errors"
+	errors "golang.org/x/xerrors"
 	"strconv"
 	"strings"
 

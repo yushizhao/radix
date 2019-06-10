@@ -133,7 +133,7 @@ package radix
 import (
 	"bufio"
 	"crypto/tls"
-	"errors"
+	errors "golang.org/x/xerrors"
 	"net"
 	"net/url"
 	"strconv"

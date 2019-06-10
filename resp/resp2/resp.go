@@ -10,7 +10,7 @@ import (
 	"bufio"
 	"bytes"
 	"encoding"
-	"errors"
+	errors "golang.org/x/xerrors"
 	"fmt"
 	"io"
 	"reflect"

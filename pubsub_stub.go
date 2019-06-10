@@ -1,7 +1,7 @@
 package radix
 
 import (
-	"errors"
+	errors "golang.org/x/xerrors"
 	"fmt"
 	"io"
 	"strings"

@@ -5,7 +5,7 @@ package bytesutil
 import (
 	"bufio"
 	"bytes"
-	"errors"
+	errors "golang.org/x/xerrors"
 	"fmt"
 	"io"
 	"strconv"

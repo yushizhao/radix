@@ -3,7 +3,7 @@ package radix
 import (
 	"bufio"
 	"bytes"
-	"errors"
+	errors "golang.org/x/xerrors"
 	"fmt"
 	"io"
 	"math"
